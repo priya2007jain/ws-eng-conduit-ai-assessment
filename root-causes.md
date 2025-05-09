@@ -8,7 +8,9 @@ Please copy-paste the final answer that you obtained from the AI for each questi
 
 **Question**: What is the underlying issue that causes this problem to occur and from which component (file) of this project does this issue originate?
 
-**Answer**: *Please fill this in*
+**Answer**: The issue is while saving the article its API response was considering each character instead of a comma separated string. 
+File : apps/backend/src/article/article.service.ts
+API : https://ubiquitous-garbanzo-69w6wjq9jr54f4pjg-4200.app.github.dev/api/articles/
 
 
 ## Problem 2
@@ -17,5 +19,6 @@ Please copy-paste the final answer that you obtained from the AI for each questi
 
 **Question**: What is the underlying issue that causes this problem to occur and from which component (file) of this project does this issue originate?
 
-**Answer**: *Please fill this in*
-
+**Answer**: Tags which were mentioned in the new articles were not getting added to database in Tags table and hence not rendering in UI under "Popular Tags"
+File : apps/backend/src/article/article.service.ts
+API : https://ubiquitous-garbanzo-69w6wjq9jr54f4pjg-4200.app.github.dev/api/tags
